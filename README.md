@@ -1,9 +1,9 @@
-# Scoop Bucket Template
-
+# DreamOs Bucket
 <!-- Uncomment the following line after replacing placeholders -->
 <!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+- `virtualbox-with-extension-pack-np` - 7.0.10 version doesn't enforce
+[installation location pollicy](https://www.virtualbox.org/ticket/22044) that breaks [scoop installation process](https://github.com/ScoopInstaller/Nonportable/issues/302).
 
 ## How do I use this template?
 
