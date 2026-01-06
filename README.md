@@ -4,6 +4,8 @@
 
 - `virtualbox-with-extension-pack-np` - 7.0.10 version doesn't enforce
 [installation location pollicy](https://www.virtualbox.org/ticket/22044) that breaks [scoop installation process](https://github.com/ScoopInstaller/Nonportable/issues/302).
+- `nomachine` - remote desktop solution
+- `nvrh` - helper to connect to remote with neovim via ssh
 
 ## How do I use this template?
 
