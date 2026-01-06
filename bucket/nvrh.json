@@ -1,0 +1,31 @@
+{
+    "version": "0.5.1",
+    "description": "Aims to be similar to VSCode Remote, but for Neovim",
+    "homepage": "https://github.com/mikew/nvrh",
+    "license": {
+        "identifier": "MIT license",
+        "url": "https://github.com/mikew/nvrh/blob/main/LICENSE"
+    },
+    "changelog": "https://github.com/mikew/nvrh/releases",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mikew/nvrh/releases/download/v0.5.1/nvrh-windows-amd64.exe",
+            "hash": "sha256:b0d11bf4c79243930ea9327a29bdee8da18f6bdbeae791cc3a3de2938d6c3c41"
+        }
+    },
+    "bin": [
+        ["nvrh-windows-amd64.exe", "nvrh"]
+    ],
+    "checkver": {
+        "github": "https://github.com/mikew/nvrh",
+        "regex": "/release-(?<version>[\\d.]+)/nvrh-windows-amd64.exe",
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mikew/nvrh/releases/download/v${matchVersion}/nvrh-windows-amd64.exe"
+            }
+        }
+    }
+}
